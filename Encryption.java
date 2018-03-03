@@ -51,7 +51,7 @@ public class Encryption {
             y += 10;
         }
         ImageIO.write(img,"png",new File("C:\\Users\\vinay\\Documents\\NetBeansProjects\\Steganography\\src\\steganography\\encrypted.png"));
-        Decryption.main(null);
+        
     }
     
 }
