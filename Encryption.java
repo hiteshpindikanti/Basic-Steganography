@@ -32,14 +32,7 @@ public class Encryption {
         int[] pixels = img.getRGB(0, 0, img.getWidth(), img.getHeight(), null, 0, img.getWidth());
         
         Color c,nc;
-        
-       /* for (int i:pixels)
-        {
-            c = new Color(i);
-            System.out.print(c.getRed() + "-" + c.getGreen() + "-" + c.getBlue() + " ");
-            if(i%270 == 0)
-                System.out.println("\n------------------------------");
-        }*/
+       
         int x=0,y=0;
         for(char ch:message.toCharArray())
         {
